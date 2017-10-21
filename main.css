@@ -1,0 +1,133 @@
+.margin-box {
+    width: 600px;
+    margin: 10px;
+}
+/* Start Accordion Menu */
+.accordion-menu {
+	list-style:none!important;
+	padding:0;
+	font-weight:400;
+	font-size:16px;
+	color: #333333
+}
+
+.accordion-menu li {
+	background:none;
+	margin:7px 0;
+	padding:0;
+}
+
+.accordion-menu li header {
+	background-color:#fdfdfd;
+	border-top:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	border-right:1px solid #e4e4e4;
+	cursor:pointer;
+	padding:10px 20px;
+	text-align:left;
+	transition:all 200ms ease;
+	-khtml-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	-webkit-touch-callout:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+.accordion-menu li header:last-child {
+	border-bottom:1px solid #e4e4e4;
+    cursor: default;
+}
+
+.accordion-menu li header:hover {
+	background-color:#e4e4e4;
+	border-color:#e4e4e4;
+	color: #ffffff;
+}
+
+.accordion-menu li header:last-child:hover {
+	background-color:#fdfdfd;
+    color: black;
+}
+
+.accordion-menu li .content {
+	border-bottom:1px solid #e4e4e4;
+	border-left:1px solid #e4e4e4;
+	border-right:1px solid #e4e4e4;
+	max-height:180px;
+	overflow:hidden;
+	padding:20px;
+	transition:all 200ms linear;
+}
+
+.accordion-menu li .content p {
+	margin:0;
+}
+
+
+.accordion-menu .closed .content {
+	max-height:0;
+	padding:0 20px;
+}
+
+.accordion-menu .open header {
+	background-color:#e4e4e4;
+	border:1px solid #e4e4e4;
+}
+
+.accordion-menu .open header .title, .accordion-menu .open header .value {
+	color:#ffffff;
+}
+.value, .total {
+    float: right;
+    color:inherit;
+}
+/* Accordion menu styling ends */
+
+/* Checkbox styling starts */
+.squared {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+  background: #e4e4e4;
+}
+.squared label {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 4px;
+  top: 4px;
+  background: #ffffff;
+}
+.squared label:after {
+  content: '';
+  width: 9px;
+  height: 5px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  border: 3px solid #e4e4e4;
+  border-top: none;
+  border-right: none;
+  background: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.squared label:hover::after {
+  opacity: 0.3;
+}
+.squared input[type=checkbox] {
+  visibility: hidden;
+}
+.squared input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+/* Checkbox styling ends */
+
+.bottom-text-block {
+    text-align: center;
+}

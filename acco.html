@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sharing is Caring | Consocio</title>
+	<link href="https://fonts.googleapis.com/css?family=Karla|Montserrat+Alternates" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="margin-box">
+        <!-- Accordion starts -->
+<form>
+	<!-- Accordion menu starts -->
+	<ul class="accordion-menu">
+		<!-- First accordion panel starts -->
+		<li id="nr-1" class="open">
+			<!-- First panel title with checkbox -->
+			<header onclick="toggle(this.parentNode)">
+				<!-- Checkbox layout -->
+				
+				<div class="squared">
+					<input type="checkbox" value="10000" id="squared-1" name="check" class="chk" checked/>
+					<label for="squared-1"></label>
+				</div>
+				<!-- Panel title -->
+				<span class="title">HOONE ALGKOOSSEIS</span>
+				<span class="value">10 000 EUR</span>
+			</header>
+			<!-- Panel content -->
+			<section class="content">
+				<p>
+				I am text block. Click edit button to change this text. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+				</p>
+			</section>
+		</li>
+		<!-- First accordion panel ends -->
+		
+		<!-- Second accordion panel starts -->
+		<li id="nr-2" class="closed">
+			<!-- Second panel title with checkbox -->
+			<header onclick="toggle(this.parentNode)">
+				<!-- Checkbox layout -->
+				<div class="squared">
+					<input type="checkbox" value="500" id="squared-2" name="check" class="chk"/>
+					<label for="squared-2"></label>
+				</div>
+				<!-- Panel title -->
+				<span class="title">TEHNOSÜSTEEMID</span>
+				<span class="value">500 EUR</span>
+			</header>
+			<!-- Panel content -->
+			<section class="content">
+				<p>
+				I am text block. Click edit button to change this text. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+				</p>
+			</section>
+		</li>
+		<!-- Second accordion panel ends -->
+		
+		<!-- Third accordion panel starts -->
+		<li id="nr-3"  class="closed">
+			<!-- Third panel title with checkbox -->
+			<header onclick="toggle(this.parentNode)">
+				<!-- Checkbox layout -->
+				<div class="squared">
+					<input type="checkbox" value="2500" id="squared-3" name="check" class="chk"/>
+					<label for="squared-3"></label>
+				</div>
+				<!-- Panel title -->
+				<span class="title">SISEVIIMISTLUS</span>
+				<span class="value">2 500 EUR</span>
+			</header>
+			<!-- Panel content -->
+			<section class="content">
+				<p>
+				I am text block. Click edit button to change this text. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+				</p>
+			</section>
+		</li>
+		<!-- Third accordion panel ends -->
+		
+		<!-- Fourth accordion panel starts -->
+		<li id="nr-4" class="closed">
+			<!-- Fourth panel title with checkbox -->
+			<header onclick="toggle(this.parentNode)">
+				<!-- Checkbox layout -->
+				<div class="squared">
+					<input type="checkbox" value="350" id="squared-4" name="check" class="chk"/>
+					<label for="squared-4"></label>
+				</div>
+				<!-- Panel title -->
+				<span class="title">AUTONOOMSED TEHNOSÜSTEEMID</span>
+				<span class="value">350 EUR</span>
+			</header>
+			<!-- Panel content -->
+			<section class="content">
+				<p>
+				I am text block. Click edit button to change this text. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+				</p>
+			</section>
+		</li>
+		<!-- Fourth accordion panel ends -->
+		
+		<!-- Fifth accordion panel starts -->
+		<li id="nr-5" class="closed">
+			<!-- Fifth panel title with checkbox -->
+			<header onclick="toggle(this.parentNode)">
+				<!-- Checkbox layout -->
+				<div class="squared">
+					<input type="checkbox" value="500" id="squared-5" name="check" class="chk"/>
+					<label for="squared-5"></label>
+				</div>
+				<!-- Panel title -->
+				<span class="title">TÄIENDAV VÄLISVIIMISTLUS</span>
+				<span class="value">500 EUR</span>
+			</header>
+			<!-- Panel content -->
+			<section class="content">
+				<p>
+				I am text block. Click edit button to change this text. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+				</p>
+			</section>
+		</li>
+		<!-- Fifth accordion panel ends -->
+		
+		<!-- Sixth accordion panel starts -->
+		<li id="nr-6" class="closed">
+			<!-- Sixth panel title with checkbox -->
+			<header>
+				<!-- Panel title -->
+				<span class="title">SUMMA</span>
+				<output class="total"></output>
+			</header>
+		</li>
+		<!-- Sixth accordion panel ends -->
+	</ul>
+	<!-- Accordion menu ends -->
+</form>
+<!-- Accordion ends -->
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
